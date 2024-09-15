@@ -15,12 +15,12 @@
 
 ## 🔥 About Me
 
-Full-stack developer with over 7 years of experience building scalable web applications. I specialize in JavaScript, TypeScript, C#, and ASP.NET Core, and have worked in various industries including Finance, E-commerce, and Logistics. I enjoy solving complex challenges and delivering high-quality solutions.
+Full-stack Developer with 7+ years of experience building scalable web applications. I specialize in JavaScript, TypeScript, C#, and ASP.NET Core, and have worked across industries such as Finance, E-commerce, and Logistics. I enjoy solving complex challenges and delivering high-quality solutions.
 
 - 🌱 Currently, I'm working with **Node.js**, **React**, and **AWS**, focusing on scalable architecture.
 - 👯 I'm looking to collaborate on **Open Source projects** in **JavaScript/TypeScript**, **API Development**, and **Cloud Computing**.
-- 🎯 My 2024 goal is to contribute more to open-source projects and expand my knowledge in **AI-driven systems**.
-- ⚡ Fun fact: I love mentoring junior developers, and I'm always eager to learn about emerging technologies!
+- 🎯 My 2024 goal is to expand my knowledge in **AI-driven systems** and **system design**, as well as contribute more to open-source projects.
+- ⚡ I love mentoring junior developers, and I'm always eager to learn about emerging technologies!
 
 In the future, I aim to work on more projects that bridge the gap between traditional systems and cutting-edge technologies like **AI** and **cloud-native solutions**.
 
