@@ -2,7 +2,7 @@
 <h1 align="center">Hi there, I'm Milad Ahmadi 👋</h1>
 
 <p align="center">
-  🚀 Full-stack Developer | JavaScript, TypeScript, ASP.NET, Node.js | Passionate about building scalable web apps.
+  🚀 Full-stack Developer | JavaScript, TypeScript, ASP.NET, Node.js | Committed to building scalable web apps.
 </p>
 
 <p align="center">
@@ -15,13 +15,14 @@
 
 ## 🔥 About Me
 
-Full-stack Developer with 7+ years of experience in building scalable web applications. I specialize in JavaScript, TypeScript, C#, and ASP.NET Core, and have worked across industries such as Finance, E-commerce, and Logistics. I am passionate about problem-solving and delivering high-quality solutions.
+Full-stack developer with over 7 years of experience building scalable web applications. I specialize in JavaScript, TypeScript, C#, and ASP.NET Core, and have worked in various industries including Finance, E-commerce, and Logistics. I enjoy solving complex challenges and delivering high-quality solutions.
 
-- 🌱 Currently working with **Node.js**, **React**, and **AWS**.
-- 👯 Looking to collaborate on **Open Source** projects in **JavaScript**, **API Development**, and **Cloud Computing**.
-- 🎯 2024 Goals: Increase my contributions to open-source projects and sharpen my skills in **AI-driven systems**.
-- ⚡ Fun fact: I love mentoring and enjoy learning about new technologies!
+- 🌱 Currently, I'm working with **Node.js**, **React**, and **AWS**, focusing on scalable architecture.
+- 👯 I'm looking to collaborate on **Open Source projects** in **JavaScript/TypeScript**, **API Development**, and **Cloud Computing**.
+- 🎯 My 2024 goal is to contribute more to open-source projects and expand my knowledge in **AI-driven systems**.
+- ⚡ Fun fact: I love mentoring junior developers, and I'm always eager to learn about emerging technologies!
 
+In the future, I aim to work on more projects that bridge the gap between traditional systems and cutting-edge technologies like **AI** and **cloud-native solutions**.
 
 ### 🛠️ Skills & Tools
 
@@ -50,6 +51,8 @@ Full-stack Developer with 7+ years of experience in building scalable web applic
 
 ---
 
+
+
 ### 🌍 Connect with Me
 
 <p align="center">
@@ -57,3 +60,4 @@ Full-stack Developer with 7+ years of experience in building scalable web applic
   <a href="https://www.linkedin.com/in/milad-ahmadi"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:miladahmadi803@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
+
