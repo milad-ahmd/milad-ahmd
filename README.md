@@ -27,15 +27,6 @@ I am a **Full-stack Developer** with over 7 years of experience in developing ap
 
 ---
 
-/*### 🔥 Projects
-
-Here are a few projects that I’ve worked on:
-
-- [**E-commerce Platform**](https://github.com/milad-ahmd/ecommerce-platform) — A scalable platform built with **Angular**, **Node.js**, and **MongoDB** that helped reduce cart abandonment by 20%.
-- [**Real-time Chat App**](https://github.com/milad-ahmd/realtime-chat-app) — A real-time chat application using **Socket.io**, **Redis**, and **Node.js** with group chat and typing indicators.
-- [**Payment Gateway Integration**](https://github.com/milad-ahmd/payment-gateway) — A payment module using **Stripe** integrated into a full-stack platform for secure, seamless transactions.
-
----*/
 
 ### 🌍 Connect with me
 
