@@ -1,6 +1,6 @@
 <!-- Hand-crafted profile. header.svg & metrics.svg live in this repo — no third-party widget services. -->
 
-<img width="100%" src="./header.svg" alt="Terminal running neofetch — Milad Ahmadi, Senior Software Engineer, full-stack backend-heavy. Backend: Java, Spring Boot, Go, NestJS, Kafka. Frontend: React, Next.js, React Native, TypeScript. Relocating Tehran to Amsterdam." />
+<a href="https://www.linkedin.com/in/milad-ahmadi"><img width="100%" src="./header.svg" alt="Terminal running neofetch — Milad Ahmadi, Senior Software Engineer, full-stack backend-heavy. Backend: Java, Spring Boot, Go, NestJS, Kafka. Frontend: React, Next.js, React Native, TypeScript. Relocating Tehran to Amsterdam. Click to open LinkedIn." /></a>
 
 <p align="center">
   <b>🟢 Open to Senior Software Engineer roles (backend / full-stack) — relocating to Amsterdam, NL 🇳🇱 (visa sponsorship)</b><br/>
@@ -36,7 +36,7 @@ WARN  --- [main] RelocationService          : Instance ready to migrate → eu-w
 INFO  --- [main] MiladApplication           : Started MiladApplication in 9.2 years (worth every ms)
 ```
 
-<img width="100%" src="./metrics.svg" alt="Production dashboard — 100K+ trades/day at P99 under 100ms, 60K concurrent sessions, Lighthouse 96/100 frontend vitals, cloud spend −27%, 99.9% uptime SLO. Stack mix: Java, TypeScript, JavaScript, Go, SQL." />
+<a href="https://github.com/milad-ahmd?tab=repositories"><img width="100%" src="./metrics.svg" alt="Production dashboard — 100K+ trades/day at P99 under 100ms, 60K concurrent sessions, Lighthouse 96/100 frontend vitals, cloud spend −27%, 99.9% uptime SLO. Stack mix: Java, TypeScript, JavaScript, Go, SQL. Click to browse repositories." /></a>
 
 ## `$ kafka-console-consumer --topic milad.career.events --from-beginning`
 
