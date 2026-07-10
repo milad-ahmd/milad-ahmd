@@ -77,8 +77,8 @@ INFO  --- [main] MiladApplication           : Started MiladApplication in 9.2 ye
 | **[gkit-java](https://github.com/milad-ahmd/gkit-java)** | `java-21 / spring-boot-3` | ✅ deployed | Production-grade resilience toolkit — retry, circuit breaker, **saga**, caching, validation, observability |
 | **[gkit-go](https://github.com/milad-ahmd/gkit-go)** | `go` | ✅ deployed | The Go edition — idiomatic reliability primitives for microservices |
 | **[gkit-nestjs](https://github.com/milad-ahmd/gkit-nestjs)** | `typescript / nestjs` | ✅ deployed | Same building blocks for Node services |
-| **[spring-boot-enterprise-boilerplate](https://github.com/milad-ahmd/spring-boot-enterprise-boilerplate)** | `java / spring-boot` | ✅ deployed | Opinionated starter — clean architecture & production defaults |
 | **[nest-postgres-boilerplate](https://github.com/milad-ahmd/nest-postgres-boilerplate)** | `typescript / nestjs` | ✅ deployed | NestJS + PostgreSQL starter — TypeORM & migrations |
+| **[go-clean-arch](https://github.com/milad-ahmd/go-clean-arch)** | `go` | ✅ deployed | Clean Architecture reference implementation in Go |
 
 <details>
 <summary>&nbsp;<code>application.yml</code> — full skill manifest</summary>
