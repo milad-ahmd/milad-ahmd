@@ -1,9 +1,9 @@
 <!-- Hand-crafted profile. header.svg & metrics.svg live in this repo — no third-party widget services. -->
 
-<img width="100%" src="./header.svg" alt="milad@production terminal — Milad Ahmadi, Senior Software Engineer. Java, Spring Boot, Go. Relocating Tehran to Amsterdam." />
+<img width="100%" src="./header.svg" alt="Terminal running neofetch — Milad Ahmadi, Senior Software Engineer, full-stack backend-heavy. Backend: Java, Spring Boot, Go, NestJS, Kafka. Frontend: React, Next.js, React Native, TypeScript. Relocating Tehran to Amsterdam." />
 
 <p align="center">
-  <b>🟢 Open to Senior Backend / Software Engineer roles — relocating to Amsterdam, NL 🇳🇱 (visa sponsorship)</b><br/>
+  <b>🟢 Open to Senior Software Engineer roles (backend / full-stack) — relocating to Amsterdam, NL 🇳🇱 (visa sponsorship)</b><br/>
   <a href="https://www.linkedin.com/in/milad-ahmadi">LinkedIn</a> ·
   <a href="mailto:miladahmadi803@gmail.com">miladahmadi803@gmail.com</a>
 </p>
@@ -28,6 +28,7 @@ INFO  --- [main] DomainScanner              : Domains found: [fintech, logistics
 INFO  --- [main] KafkaMeshBean              : 25+ topics wired — exactly-once semantics enabled
 INFO  --- [main] SettlementEngine           : Clearing 100K+ trades/day · P99 < 100 ms — SLO met
 INFO  --- [main] ReactorPipeline            : Backpressure healthy @ 60K concurrent sessions
+INFO  --- [main] FullStackBridge            : React/Next.js consoles · NestJS services · React Native field apps
 INFO  --- [main] ResilienceConfig           : Circuit breakers armed — outage blast radius −60%
 INFO  --- [main] GkitPublisher              : OSS toolkits online: [gkit-java, gkit-go, gkit-nestjs]
 INFO  --- [main] MentorshipService          : PR review-to-merge −50% · team coverage 85%+
@@ -35,7 +36,7 @@ WARN  --- [main] RelocationService          : Instance ready to migrate → eu-w
 INFO  --- [main] MiladApplication           : Started MiladApplication in 9.2 years (worth every ms)
 ```
 
-<img width="100%" src="./metrics.svg" alt="SLO dashboard — 100K+ trades/day at P99 under 100ms, 60K concurrent sessions, MTTR 22 minutes, cloud spend −27%, 99.9% uptime SLO." />
+<img width="100%" src="./metrics.svg" alt="Production dashboard — 100K+ trades/day at P99 under 100ms, 60K concurrent sessions, Lighthouse 96/100 frontend vitals, cloud spend −27%, 99.9% uptime SLO. Stack mix: Java, TypeScript, JavaScript, Go, SQL." />
 
 ## `$ kafka-console-consumer --topic milad.career.events --from-beginning`
 
@@ -43,24 +44,28 @@ INFO  --- [main] MiladApplication           : Started MiladApplication in 9.2 ye
 [
   { "offset": 0, "ts": "2017-01", "key": "manage-petro", "value": {
       "role": "Backend Developer", "domain": "fuel-delivery logistics",
-      "highlights": ["offline-first CQRS — 1M+ tx/day, 100% data integrity",
-                     "Stripe + PSP integrations — GMV +18%"] } },
+      "highlights": ["offline-first React Native + Spring CQRS — 1M+ tx/day, 100% data integrity",
+                     "Stripe + PSP integrations — GMV +18%",
+                     "PWA Lighthouse 68 → 96 — service workers + background sync"] } },
 
   { "offset": 1, "ts": "2018-11", "key": "hashthink", "value": {
-      "role": "Back-End Engineer", "domain": "web3 / real-time platform",
+      "role": "Full-Stack Engineer", "domain": "web3 / real-time platform",
       "highlights": ["Spring WebFlux + Reactor — 60K concurrent < 150 ms",
+                     "React-Three-Fiber 3D UI — WebSocket-synced live auction floor",
                      "event-sourced, idempotent Kafka processors — zero financial mismatches"] } },
 
   { "offset": 2, "ts": "2020-04", "key": "sanay-systems", "value": {
       "role": "Senior Software Engineer", "domain": "capital markets / fintech",
       "highlights": ["monolith → 40+ Java microservices on EKS — throughput +40%",
                      "settlement engine — 100K+ trades/day · P99 < 100 ms",
+                     "React/Next.js exchange consoles — Module Federation micro-frontends",
                      "GitOps canary deploys — MTTR 40 → 22 min"] } },
 
   { "offset": 3, "ts": "2025-02", "key": "hich", "status": "CURRENT", "value": {
       "role": "Senior Software Engineer", "domain": "ride-hailing / mobility",
       "highlights": ["event-driven ride & payment platform on Kafka",
                      "PostgreSQL hot-path tuning — p95 −35%",
+                     "rider & ops web apps — React/TypeScript behind feature flags",
                      "ClickHouse pipeline — batch reporting → near real-time"] } }
 ]
 ```
@@ -73,28 +78,33 @@ INFO  --- [main] MiladApplication           : Started MiladApplication in 9.2 ye
 | **[gkit-go](https://github.com/milad-ahmd/gkit-go)** | `go` | ✅ deployed | The Go edition — idiomatic reliability primitives for microservices |
 | **[gkit-nestjs](https://github.com/milad-ahmd/gkit-nestjs)** | `typescript / nestjs` | ✅ deployed | Same building blocks for Node services |
 | **[spring-boot-enterprise-boilerplate](https://github.com/milad-ahmd/spring-boot-enterprise-boilerplate)** | `java / spring-boot` | ✅ deployed | Opinionated starter — clean architecture & production defaults |
+| **[nest-postgres-boilerplate](https://github.com/milad-ahmd/nest-postgres-boilerplate)** | `typescript / nestjs` | ✅ deployed | NestJS + PostgreSQL starter — TypeORM & migrations |
 
 <details>
 <summary>&nbsp;<code>application.yml</code> — full skill manifest</summary>
 
 ```yaml
 milad:
-  languages: [java-21, go, typescript, sql]
+  languages: [java-21, typescript, javascript-es6, go, sql]
   backend:
     spring: [boot-3, webflux-reactor, security, data-jpa]
     concurrency: [virtual-threads, executor-service, completable-future]
+    node: [nestjs, express, graphql]
     go: [net-http, gin, grpc, goroutines, errgroup]
+  frontend:
+    react: [nextjs-ssr-isr, react-native, redux, zustand, tanstack-query]
+    ui: [tailwind, styled-components, storybook, d3]
+    quality: [core-web-vitals, lighthouse-96, module-federation]
   messaging:
     kafka: { streams: true, connect: true, exactly-once: true }
-    also: [rabbitmq, redis-streams, websockets]
+    also: [rabbitmq, redis-streams, websockets, socket-io]
   data: [postgresql, mongodb, redis, clickhouse, cassandra, elasticsearch]
   cloud:
     aws: [eks, ecs, lambda, rds, s3]
     platform: [kubernetes, helm, terraform, docker, argocd-gitops]
-  testing: [junit5, testcontainers, mockito, gatling, jest, cypress, playwright]
+  testing: [junit5, testcontainers, mockito, gatling, jest, cypress, playwright, react-testing-library]
   observability: [prometheus, micrometer, grafana, opentelemetry, elk]
   architecture: [microservices, event-driven, cqrs, ddd, clean-architecture]
-  frontend: [react, nextjs, tailwind]   # full-stack range when the product needs it
 ```
 </details>
 
@@ -103,7 +113,7 @@ milad:
 ```json
 {
   "name": "Milad Ahmadi",
-  "role": "Senior Software Engineer — backend (Java / Go)",
+  "role": "Senior Software Engineer — full-stack (Java / Go / TypeScript · React)",
   "location": { "current": "Tehran, IR", "next": "Amsterdam, NL", "visa": "sponsorship-required" },
   "links": {
     "linkedin": "https://www.linkedin.com/in/milad-ahmadi",
