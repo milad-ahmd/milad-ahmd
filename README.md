@@ -3,7 +3,6 @@
 <a href="https://www.linkedin.com/in/milad-ahmadi"><img width="100%" src="./header.svg" alt="Terminal running neofetch — Milad Ahmadi, Senior Software Engineer, full-stack backend-heavy. Backend: Java, Spring Boot, Go, NestJS, Kafka. Frontend: React, Next.js, React Native, TypeScript. Relocating Tehran to Amsterdam. Click to open LinkedIn." /></a>
 
 <p align="center">
-  <b>🟢 Open to Senior Software Engineer roles (backend / full-stack) — relocating to Amsterdam, NL 🇳🇱 (visa sponsorship)</b><br/>
   <a href="https://www.linkedin.com/in/milad-ahmadi">LinkedIn</a> ·
   <a href="mailto:miladahmadi803@gmail.com">miladahmadi803@gmail.com</a>
 </p>
