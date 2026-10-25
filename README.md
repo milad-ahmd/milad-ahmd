@@ -76,6 +76,7 @@ INFO  --- [main] MiladApplication           : Started MiladApplication in 9.2 ye
 | **[gkit-java](https://github.com/milad-ahmd/gkit-java)** | `java-21 / spring-boot-3` | ✅ deployed | Production-grade resilience toolkit — retry, circuit breaker, **saga**, caching, validation, observability |
 | **[gkit-go](https://github.com/milad-ahmd/gkit-go)** | `go` | ✅ deployed | The Go edition — idiomatic reliability primitives for microservices |
 | **[gkit-nestjs](https://github.com/milad-ahmd/gkit-nestjs)** | `typescript / nestjs` | ✅ deployed | Same building blocks for Node services |
+| **[agent-skills](https://github.com/milad-ahmd/agent-skills)** | `skill-md / claude-code` | ✅ deployed | 51 Agent Skills for Claude Code, Cursor & Codex: an agent per social platform, senior-engineer dev workflows, [website](https://milad-ahmd.github.io/agent-skills/) |
 | **[nest-postgres-boilerplate](https://github.com/milad-ahmd/nest-postgres-boilerplate)** | `typescript / nestjs` | ✅ deployed | NestJS + PostgreSQL starter — TypeORM & migrations |
 | **[go-clean-arch](https://github.com/milad-ahmd/go-clean-arch)** | `go` | ✅ deployed | Clean Architecture reference implementation in Go |
 
